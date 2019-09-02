@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="core,root,tapir-live-demo">
+      <option name="postfixOps" value="true" />
+      <option name="implicitConversions" value="true" />
+      <option name="higherKinds" value="true" />
+      <option name="existentials" value="true" />
+      <option name="macros" value="true" />
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <option name="explainTypeErrors" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="UTF-8" />
+        <parameter value="-Xcheckinit" />
+        <parameter value="-Xfuture" />
+        <parameter value="-Yno-adapted-args" />
+        <parameter value="-Ywarn-dead-code" />
+        <parameter value="-Ywarn-inaccessible" />
+        <parameter value="-Ywarn-nullary-override" />
+        <parameter value="-Ywarn-nullary-unit" />
+        <parameter value="-Ywarn-numeric-widen" />
+        <parameter value="-Ywarn-value-discard" />
+        <parameter value="-Ypartial-unification" />
+        <parameter value="-Xlint:constant" />
+        <parameter value="-Ywarn-unused:implicits" />
+        <parameter value="-Ywarn-unused:imports" />
+        <parameter value="-Ywarn-unused:locals" />
+        <parameter value="-Ywarn-unused:params" />
+        <parameter value="-Ywarn-unused:patvars" />
+        <parameter value="-Ywarn-unused:privates" />
+        <parameter value="-Ywarn-extra-implicit" />
+        <parameter value="-Xlint:adapted-args" />
+        <parameter value="-Xlint:by-name-right-associative" />
+        <parameter value="-Xlint:delayedinit-select" />
+        <parameter value="-Xlint:doc-detached" />
+        <parameter value="-Xlint:inaccessible" />
+        <parameter value="-Xlint:infer-any" />
+        <parameter value="-Xlint:missing-interpolator" />
+        <parameter value="-Xlint:nullary-override" />
+        <parameter value="-Xlint:nullary-unit" />
+        <parameter value="-Xlint:option-implicit" />
+        <parameter value="-Xlint:package-object-classes" />
+        <parameter value="-Xlint:poly-implicit-overload" />
+        <parameter value="-Xlint:private-shadow" />
+        <parameter value="-Xlint:stars-align" />
+        <parameter value="-Xlint:type-parameter-shadow" />
+        <parameter value="-Xlint:unsound-match" />
+        <parameter value="-Ywarn-infer-any" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/.var/app/com.jetbrains.IntelliJ-IDEA-Community/cache/v1/https/repo1.maven.org/maven2/org/wartremover/wartremover_2.12/2.4.1/wartremover_2.12-2.4.1.jar" />
+        <plugin path="$USER_HOME$/.var/app/com.jetbrains.IntelliJ-IDEA-Community/cache/v1/https/repo1.maven.org/maven2/org/spire-math/kind-projector_2.12/0.9.10/kind-projector_2.12-0.9.10.jar" />
+        <plugin path="$USER_HOME$/.var/app/com.jetbrains.IntelliJ-IDEA-Community/cache/v1/https/repo1.maven.org/maven2/org/scalamacros/paradise_2.12.8/2.1.1/paradise_2.12.8-2.1.1.jar" />
+      </plugins>
+    </profile>
+  </component>
+</project>

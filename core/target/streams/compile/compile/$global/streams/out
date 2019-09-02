@@ -1,0 +1,9 @@
+[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /home/kato/Documents/DevData/tapir-live-demo/project/target/.sbt-compilation-infos/core-compile/.sbt-idea-lock ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/kato/Documents/DevData/tapir-live-demo/core/src/main/scala/eu/firstbird/tapirlivedemo/LiveDemo.scala:68:58: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : akka.http.scaladsl.model.StatusCodes.ClientError[0m
+[0m[[0m[31merror[0m] [0m[0m required: tapir.model.StatusCode[0m
+[0m[[0m[31merror[0m] [0m[0m    (which expands to)  Int[0m
+[0m[[0m[31merror[0m] [0m[0m        case None => Future.successful(Left((StatusCodes.NotFound, ErrorInfo(s"Book $id not found"))))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /home/kato/Documents/DevData/tapir-live-demo/project/target/.sbt-compilation-infos/core-compile/.sbt-idea-lock.[0m
